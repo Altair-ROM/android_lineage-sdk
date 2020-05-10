@@ -2080,6 +2080,14 @@ public final class LineageSettings {
         public static final Validator FORCE_SHOW_NAVBAR_VALIDATOR =
                 sBooleanValidator;
 
+        /************************************/
+        /* Altair ROM System Settings Start */
+        /************************************/
+
+        /**********************************/
+        /* Altair ROM System Settings End */
+        /**********************************/
+
         /**
          * I can haz more bukkits
          * @hide
@@ -2355,6 +2363,8 @@ public final class LineageSettings {
                     FORCE_SHOW_NAVBAR_VALIDATOR);
             VALIDATORS.put(__MAGICAL_TEST_PASSING_ENABLER,
                     __MAGICAL_TEST_PASSING_ENABLER_VALIDATOR);
+            // Altair ROM system settings start
+            // Altair ROM system settings end
         };
         // endregion
     }
@@ -3145,6 +3155,14 @@ public final class LineageSettings {
 
         public static final Validator TETHERING_ALLOW_VPN_UPSTREAMS_VALIDATOR = sBooleanValidator;
 
+        /************************************/
+        /* Altair ROM Secure Settings Start */
+        /************************************/
+
+        /**********************************/
+        /* Altair ROM Secure Settings End */
+        /**********************************/
+
         // endregion
 
         /**
@@ -3259,6 +3277,8 @@ public final class LineageSettings {
             VALIDATORS.put(TRUST_RESTRICT_USB_KEYGUARD, TRUST_RESTRICT_USB_KEYGUARD_VALIDATOR);
             VALIDATORS.put(TRUST_WARNINGS, TRUST_WARNINGS_VALIDATOR);
             VALIDATORS.put(VOLUME_PANEL_ON_LEFT, VOLUME_PANEL_ON_LEFT_VALIDATOR);
+            // Altair ROM secure settings start
+            // Altair ROM secure settings end
         }
     }
 
@@ -3694,6 +3714,15 @@ public final class LineageSettings {
          * @hide
          */
         public static final String DEV_FORCE_SHOW_NAVBAR = "dev_force_show_navbar";
+
+        /************************************/
+        /* Altair ROM Global Settings Start */
+        /************************************/
+
+        /**********************************/
+        /* Altair ROM Global Settings End */
+        /**********************************/
+
         // endregion
 
         /**
